@@ -1,3 +1,7 @@
+:root {
+  --navbar-height: 40px;
+}
+
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -9,8 +13,4 @@ a:visited,
 a:focus {
   text-decoration: none;
   color: darkblue;
-}
-
-img {
-  max-width: 100%;
 }
