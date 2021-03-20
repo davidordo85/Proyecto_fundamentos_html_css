@@ -9,25 +9,35 @@
 </head>
 <body>
     <header>
-        <h1>VideoFlow</h1>
+        <div class="logo-login">VideoFlow</div>
     </header>
     <main>
+        
         <section class="block-login">
             <h1>Login</h1>
-            <form action="./videoflow.html" method="GET">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required><br>
-                <label for="contraseña">Contraseña:</label>
-                <input type="text" id="contraseña" name="contraseña" required><br>
-                
-                <a href="#" target="_blank">¿Has olvidado tu contraseña?</a>
-                
-                <input type="submit" value="Login">
-            </form>
+            <div>
+                <form class="container-login" action="./videoflow.html" method="GET">
+                    <div class="form-items-email">
+                        <p>E-mail</p><input type="email" id="email" name="email" required>
+                        <p>Contraseña</p><input type="text" id="contraseña" name="contraseña" required>
+                    </div>
+                    
+                    <div class="form-items-contraseña-olvidada-buttom">
+                        <a href="#" target="_blank">¿Has olvidado tu contraseña?</a>
+                        <input class="login-item-buttom" type="submit" value="Login">
+                    </div>
+                     
+                    
+                </form>
+            </div>
+            
         </section>
     </main>
     <footer>
-        <h1>Este es el pié de página</h1>
+        <div class="pie-de-pagina">
+            <h1>Este es el pié de página</h1>
+        </div>
+        
     </footer>
 </body>
 </html>

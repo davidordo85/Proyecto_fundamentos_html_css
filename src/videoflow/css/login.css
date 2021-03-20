@@ -1,3 +1,38 @@
+.logo-login {
+  padding: 5%;
+  margin: 1rem;
+  text-align: center;
+}
+
 .block-login {
   background-color: coral;
+  padding: 2rem;
+  max-width: 100vw;
+  margin-right: 30vw;
+  margin-left: 30vw;
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-items-email {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-items-contraseña-olvidada-buttom {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+
+.login-item-buttom {
+  background-color: darkgray;
+}
+
+.pie-de-pagina {
+  background-color: darkgray;
 }
