@@ -1,0 +1,5 @@
+.section {
+  display: grid;
+  border: solid 1px coral;
+  grid-template-columns: 33vh 33vh 33vh 33vh 33vh;
+}

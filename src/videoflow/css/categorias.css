@@ -5,7 +5,7 @@
     opacity: 0;
   }
   60% {
-    transform: scale(1.2);
+    transform: scale(2);
     opacity: 1;
   }
   100% {
@@ -13,18 +13,13 @@
   }
 }
 
-.titulo-rebotando {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.title-section {
+  color: darkgray;
+  text-align: center;
+  animation: rebote 2s;
 }
 
-.titulo-novedades {
-  animation-duration: 1.5s;
-  animation-name: rebote;
-}
-
-.novedades {
+.sections {
   max-width: 100%;
   border: solid 1px coral;
   display: flex;
