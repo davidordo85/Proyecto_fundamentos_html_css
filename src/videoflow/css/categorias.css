@@ -30,3 +30,13 @@
   border: solid 0.2rem black;
   align-content: center;
 }
+
+.ficha {
+  position: absolute;
+  background-color: lightblue;
+  visibility: hidden;
+}
+
+.article:hover .ficha {
+  visibility: visible;
+}

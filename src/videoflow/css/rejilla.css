@@ -1,5 +1,7 @@
 .section {
   display: grid;
-  border: solid 1px coral;
-  grid-template-columns: repeat(4, 1fr);
+  margin: 5vh 10vh 10vh 5vh;
+  grid-template-columns: repeat(8, 0.1fr);
+  justify-content: center;
+  align-content: center;
 }
