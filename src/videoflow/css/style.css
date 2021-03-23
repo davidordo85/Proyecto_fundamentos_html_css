@@ -1,6 +1,5 @@
 :root {
   --navbar-height: 40px;
-  --header-height: 30vw;
 }
 
 * {
@@ -14,4 +13,8 @@ a:visited,
 a:focus {
   text-decoration: none;
   color: darkblue;
+}
+
+body {
+  background-color: lightcoral;
 }

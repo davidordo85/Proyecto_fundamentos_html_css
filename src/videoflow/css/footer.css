@@ -1,0 +1,5 @@
+.footer {
+  background-color: lightgreen;
+  height: var(--navbar-height);
+  text-align: center;
+}

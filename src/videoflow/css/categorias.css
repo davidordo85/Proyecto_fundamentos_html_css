@@ -25,6 +25,7 @@
 }
 
 .article {
+  background-color: white;
   display: flex;
   margin: 2rem;
   border: solid 0.2rem black;
@@ -33,6 +34,8 @@
 
 .ficha {
   position: absolute;
+  display: grid;
+  text-align: center;
   background-color: lightblue;
   visibility: hidden;
 }
