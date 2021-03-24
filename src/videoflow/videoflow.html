@@ -5,23 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
-    <title>VideoFlow</title>
+    <title>KeepVideo</title>
 </head>
 <body> <!--TODO: revisar logo plataforma, revisar formulario de búsqueda, opción para cerrar sesión -->
     <nav id="navbar" class="navbar">
-        <div class="logo">VideoFlow</div>
+        <div class="logo">KeepVideo</div>
+
+        <input type="checkbox" id="burger-checkbox">
+        <label for="burger-checkbox" class="burger-label"></label>
         <ul class="navbar-list">
+            <li class="navbar-item"><a href="#inicio">Inicio</a></li>
             <li class="navbar-item"><a href="#novedades">Novedades</a></li>
             <li class="navbar-item"><a href="#series">Series</a></li>
             <li class="navbar-item"><a href="#películas">Películas</a></li>
             <li class="navbar-item"><a href="#favoritos">Favoritos</a></li>
-            <input type="search">
-            <input type="submit" value="Buscar">
+            <div class="bottom-search">
+                <input type="search" class="bottom-search">
+                <input type="submit" value="Buscar">
+            </div>
+            
             <li class="navbar-item"><a href="./index.html">Cerrar sesión</a></li>
         </ul>
     </nav>
-    <header class="header">
-        <h1>VideoFlow</h1>
+    <header id="inicio" class="header">
+        <img src="./img/KeepVideo-header.jpg" alt="KeepVideo">
+        
     </header>
     <main> <!--TODO: rejilla de películas o series, que muestre una miniatura de la serie/pelicula/episodio, icono para marcar como favorita-->
         
