@@ -8,7 +8,6 @@
 }
 
 .logo {
-  font-family: juego-tronos;
   line-height: var(--navbar-height);
   text-align: center;
 }
@@ -59,7 +58,7 @@
 }
 
 .navbar-item a {
-  color: white;
+  color: white; /* Para las imagenes transparentes */
   display: block;
   text-align: center;
   line-height: 3rem;
@@ -70,4 +69,35 @@
   display: flex;
   align-items: stretch;
   justify-content: space-evenly;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar .logo {
+    margin: 0 1rem;
+    position: relative;
+  }
+
+  .navbar .burger-label {
+    display: none;
+  }
+
+  .navbar-list {
+    display: flex;
+  }
+
+  .navbar-item a {
+    color: black;
+    font-size: 0.65rem;
+    line-height: var(--navbar-height);
+    padding: 0 1rem;
+  }
+
+  .bottom-search {
+    margin: 0.25rem 0.5rem 0.25rem 0.25rem;
+  }
 }

@@ -43,3 +43,10 @@
 .article:hover .ficha {
   visibility: visible;
 }
+
+@media (max-width: 768px) {
+  .article {
+    display: flex;
+    margin: 0.5rem;
+  }
+}
