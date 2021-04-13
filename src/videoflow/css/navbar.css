@@ -94,7 +94,7 @@
     color: black;
     font-size: 0.65rem;
     line-height: var(--navbar-height);
-    padding: 0 1rem;
+    padding: 0 2rem;
   }
 
   .bottom-search {

@@ -1,0 +1,9 @@
+.content-trailer {
+  display: flex;
+  justify-content: center;
+
+}
+
+.trailer {
+  height: 50vh;
+}
