@@ -63,9 +63,47 @@
                 <img src="./img/la-sombra-del-arbol.jpg" alt="sombra" title="La sombra del árbol">
             </div>                  
         </div>        
-    </main>
-    <div class="footer">
-        <h1>Este es el pié de pagina</h1>
-    </div>
+        <section id="contacto" class="section-contact">
+            <h1>Contacto</h1>
+            <form action="./enviado.html" method="GET" name="contact-form" class="contact-form">
+                <div class="contact-data">
+                    <p>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" /><br />
+                    </p>
+                    <p>
+                        <label for="email">e-mail:</label>
+                        <input type="email" id="email" name="email" required /><br />
+                    </p>
+                    <p>
+                        <label for="subject">Asunto:</label>
+                        <input type="text" id="subject" name="subject" /><br />
+                    </p>
+                </div>
+                <div class="message-data">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message"></textarea><br />
+                </div>
+                <p class="actions">
+                    <input type="submit" class="submit" value="Enviar" />
+                </p>
+            </form>
+        </section>
+        </main>
+        
+        <footer>
+            <p>Más información de las películas:</p>
+            <ul>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">Filmaffinity</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">Moviehaku</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">Dcine</a>
+                </li>
+            </ul>
+        </footer>
 </body>
 </html>

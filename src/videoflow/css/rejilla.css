@@ -1,4 +1,4 @@
-.section {
+.section-grid {
   display: grid;
   margin: 5vh 10vh 10vh 5vh;
   grid-template-columns: repeat(8, 0.1fr);
