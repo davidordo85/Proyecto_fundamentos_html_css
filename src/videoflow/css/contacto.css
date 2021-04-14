@@ -1,5 +1,7 @@
 .section-contact {
-    margin: 1rem;
+    margin-top: 2rem;
+    padding: 3rem 1rem;
+    background-color: lightgreen;
 }
 
 #contact-form {

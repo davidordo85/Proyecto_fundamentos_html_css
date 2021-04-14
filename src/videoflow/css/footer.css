@@ -1,1 +1,15 @@
+.footer {
+    color: lightblue;
+}
 
+.text-foot {
+    text-align: left;
+    margin-left: 2rem;
+    
+}
+
+.enlaces-foot {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
