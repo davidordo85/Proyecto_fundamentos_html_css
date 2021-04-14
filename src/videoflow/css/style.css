@@ -7,6 +7,10 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a,
 a:link,
 a:visited,
