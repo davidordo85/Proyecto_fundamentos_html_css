@@ -32,6 +32,13 @@
   align-content: center;
 }
 
+.check-text {
+  position:absolute;
+  align-self: flex-end;
+  background-color: white;
+}
+
+
 .ficha {
   position: absolute;
   display: grid;
@@ -48,5 +55,13 @@
   .article {
     display: flex;
     margin: 0.5rem;
+  }
+
+  .check-text {
+    visibility: hidden;
+  }
+  .check-favorit {
+    display: flex;
+    visibility: visible;
   }
 }
