@@ -19,6 +19,10 @@
   animation: rebote 2s;
 }
 
+.help {
+  text-align: center;
+}
+
 .sections {
   max-width: 100%;
   display: flex;
@@ -41,6 +45,7 @@
 
 .ficha {
   position: absolute;
+  margin: 3vw;
   display: grid;
   text-align: center;
   background-color: lightblue;
@@ -51,17 +56,23 @@
   visibility: visible;
 }
 
+.favorit {
+  position: absolute;
+}
+
+.favorit:checked {
+  
+}
+
 @media (max-width: 768px) {
   .article {
     display: flex;
     margin: 0.5rem;
   }
 
-  .check-text {
-    visibility: hidden;
-  }
-  .check-favorit {
-    display: flex;
-    visibility: visible;
-  }
+
+
+
+
+
 }
