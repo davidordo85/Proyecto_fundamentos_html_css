@@ -37,3 +37,13 @@ textarea {
     background:linear-gradient(90deg, rgba(0, 188, 212, 1) 0%, rgba(255, 85, 0, 1));
 }
 
+@media (min-width: 678px) {
+    #contact-form {
+        display: grid;
+        margin: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+
+
+}

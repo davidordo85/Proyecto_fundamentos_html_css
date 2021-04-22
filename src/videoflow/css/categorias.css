@@ -45,7 +45,7 @@
 
 .ficha {
   position: absolute;
-  margin: 3vw;
+  margin: 5vw;
   display: grid;
   text-align: center;
   background-color: lightblue;
@@ -58,21 +58,22 @@
 
 .favorit {
   position: absolute;
+  background:  url("../img/corazon.png") center center no-repeat;
+  background-size: contain;
+  padding: 1rem;
 }
 
-.favorit:checked {
-  
-}
+
+
 
 @media (max-width: 768px) {
   .article {
     display: flex;
     margin: 0.5rem;
   }
-
-
-
-
-
-
+  
+  .ficha {
+    margin-top: 2rem;
+    font-size: 10px;
+  }
 }
